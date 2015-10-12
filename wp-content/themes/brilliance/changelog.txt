@@ -1,0 +1,9 @@
+Version 1.0.7
+Tweaks - Added better handling of multilingual content
+
+Version 1.0.6
+Feature - Added multilingual support
+Tweaks - Minor fixes to design
+
+Version 1.0.5
+Theme release!

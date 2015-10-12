@@ -1,0 +1,95 @@
+-------------------------------------------------------
+    CHANGELOG
+-------------------------------------------------------
+
+Keep a change log to describe all the changes made to program source files. The purpose of this is so that people investigating 
+bugs in the future will know about the changes that might have introduced the bug. Often a new bug can be found by looking at 
+what was recently changed. More importantly, change logs can help you eliminate conceptual inconsistencies between different 
+parts of a program, by giving you a history of how the conflicting concepts arose and who they came from.
+
+
+
+-------------------------------------------------------
+    CHANGELOG Legend
+-------------------------------------------------------
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+-------------------------------------------------------
+    CHANGELOG Version Numbers
+-------------------------------------------------------
+
+[major].[minor].[patch]
+
+These 3 levels are defined as:
+
+1. An increment in the major version identifier indicates a break in backward compatibility.
+2. An increment in the minor version identifier indicates the addition of new features or a significant change to existing features.
+3. An increment in the patch version identifier indicates that bugs have been fixed.
+
+-------------------------------------------------------
+    CHANGELOG Changes
+-------------------------------------------------------
+
+
+[September 2, 2015] Version 1.1.6 Shaped Pixels <www.shapedpixels.com>
+
+[*] Updated the emphasize.pot language file which was missed on my 1.1.5 update.
+
+---------
+
+[September 2, 2015] Version 1.1.5 Shaped Pixels <www.shapedpixels.com>
+
+[!] Fixed missing Customizer colour settings for the main menu which were in the now obsolete "Nav" section; Moved to "Colors"
+[!] Fixed missing RSS icon for the social networking menu
+[!] Fixed a text domain issue that was missing in the footer.php file for the date "Y" numeral year.
+[*] Enhanced sanitization for the customizer and sidebars.php file labels and names.
+[*] Updated how the Google Fonts are loaded (enqueue) based on the Twenty Sixteen theme method.
+[*] Updated the emphasize.pot language file
+[*] Updated the Theme URL in the style.css file
+[+] Added the option to choose Content with Read More or Excerpts for the blog.
+[+] Added the option to choose Content with Read More or Excerpt for the Image Post Format
+[+] Added Customizer buttons that links to theme setup tutorials, theme support, reviews... 
+
+------------
+
+[May 10, 2015] Version 1.0.4 Shaped Pixels <www.shapedpixels.com>
+
+[*] Changed the logo upload option setting in the customizer and the logo-group.php 
+
+------------
+
+[May 9, 2015] Version 1.0.3 Shaped Pixels <www.shapedpixels.com>
+
+[*] Changed the copyright option setting back to it's original method; the previous wasn't working.
+[*] Cleaned up the custom-header.php file and created it as a function.
+[*] Updated the readme.txt file to include licenses and credits of resources related to Emphasize
+[*] updated the logo option by escaping the option in the logo-group.php file.
+
+-------------
+
+[May 9, 2015] Version 1.0.2 Shaped Pixels <www.shapedpixels.com>
+
+[*] Changed the hex color sanitize function name in the customizer.php file
+[*] Changed all get_theme_mods() to include escaped attributes (all files)
+[*] Changed the footer option setting for entering your copyright name via the customizer
+[*] Adjusted the WP Gallery caption text padding and font size.
+
+-------------
+
+[May 3, 2015] Version 1.0.1 Shaped Pixels <www.shapedpixels.com>
+
+[x] Deleted the empty rtl.css file
+[x] Deleted the fixed-layout tag from the stylesheet details
+[x] Deleted the .mo file which is not needed in the package
+
+-------------
+
+[April 20, 2015] Version 1.0.0 Shaped Pixels <www.shapedpixels.com>
+
+[] New theme is released
